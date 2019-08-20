@@ -1,0 +1,232 @@
+body {
+    width: 100%;
+    height : 100%;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px !important;
+}
+.menu-principal{
+    width: 100%;
+    background-color: rgb(175, 3, 3);
+    height: 60px;
+}
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{ 
+    float: left;
+    padding: 5px;
+    width: 75%;
+}
+.redsociais ul li{
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+.redsociais {
+    width: 20%;
+    float: left;
+
+}
+
+.header2{
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 1px solid rgba(136, 4, 4, 0.11);
+    
+}
+.menu ul li {
+    display: inline-block;
+    color: rgb(175, 3, 3);
+    margin-left: 15px;
+    height: 20px;
+}
+
+.menu ul li :hover {
+    border-bottom:   rgb(1, 27, 1) 3px solid;
+}
+.menu ul li a:hover {
+    color: black
+}
+.menu ul li a {
+    color: rgb(175, 3, 3);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu{ 
+    width: 70%;
+    float: left;
+}
+.busca{
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 6px;
+    width: 180px;
+    background-image: url(pesquisa.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 10%;
+
+    
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+button.slick-prev{
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    width:75px ;
+    height:51px ;
+    background-image: url('prev.png');
+    position: absolute;
+    top:47%;
+    left:5%;
+    cursor: pointer;
+    overflow: visible;
+    
+}
+button.slick-next{
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    width: 75px;
+    height:51px;
+    background-image: url('next.png');
+    position: absolute;
+    top:50%;
+    right: 5%;
+    cursor: pointer;
+    overflow: visible;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid white;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    border-radius:50% ;
+    cursor: pointer;
+    overflow: visible;
+    
+}
+.slick-dots{
+    margin:0 auto;
+    width: 50%;
+    position: absolute;
+    left :47%;
+    top:90%
+
+
+}
+
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+
+ li.slick-active button{
+    background-color: rgb(175, 3, 3);
+}
+.slick-list{
+    width: 100% !important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.latest-news-area{
+    margin-top: 40px;
+}
+.latest-news-wrap{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1)
+}
+.news-img{
+    position: relative;
+    display: inline-block;
+}
+.news-img:before{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height:100%;
+    background: #000;
+    content:"";
+    opacity:0;
+    transform: scale(.8);
+    transition: all 0.5s;
+}
+.latest-news-wrap:hover .news-img::before{
+    opacity: .5;
+    transform: scale(1);
+}
+
+.deat{
+    background: rgb(175, 3, 3) none repeat scroll 0 0 ;
+    height:60px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width:70px;
+    padding:10px;
+}
+.deat span{
+    display: block;
+    color:white;
+    font-weight:700;
+    font-size: 16px;
+}
+
+.news-content{
+    padding:20px;
+    margin-left:3px;
+
+}
+
+.news-content{
+    font-size: 18px;
+    display:inline-block;
+}
+.news-content p{
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-top:20px;}
+    .news-content a{
+        font-size:14px;
+        background-color:  rgb(175, 3, 3);
+        padding: 10px 20px;
+        color: white;
+        transition:all 0.5s ease-in;
+    }
+
+    .news-content a:hover{
+        font-size: 14px;
+        border:1px solid black;
+        border-top-right-radius: 20px;
+        background-color: transparent;
+        color: black;
+        text-decoration: none;
+    }
+    .row{
+        display: inline-block;
+
+    }
