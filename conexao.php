@@ -1,5 +1,5 @@
 <?php
-$servidor = "11.78.0.35";
+$servidor = "Localhost";
 $usuario = "docume78_rede";
 $snh = "Pt5Hi12OCLgh";
 $dbname = "docume78_db_leads";

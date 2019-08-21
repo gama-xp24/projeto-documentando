@@ -14,12 +14,17 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
     $ip = $_SERVER['REMOTE_ADDR'];
 }
 
-$result_usuario = "INSERT INTO tb_leads (email, ip, tipo, nome) VALUES ('$email', '$ip', '$tipo', '$nome')";
+date_default_timezone_set('America/Sao_Paulo');
+
+$horario = date('m/d/Y h:i:s');
+
+$result_usuario = "SET GLOBAL time_zone = "America/Sao_Paulo" INSERT INTO tb_leads (email, ip, tipo, nome, data_hora) VALUES ('$email', '$ip', '$tipo', '$nome', NOW())";
+
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 if(mysqli_insert_id($conn)){
 	$_SESSION['msg'] = "<p style='color:green;'>Usuário cadastrado com sucesso</p>";
-	header("Location: index.php");
+	header("Location: index.html");
 }else{
 	$_SESSION['msg'] = "<p style='color:red;'>Usuário não foi cadastrado com sucesso</p>";
 	header("Location: cad_usuario.php");

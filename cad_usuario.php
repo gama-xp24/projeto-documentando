@@ -10,7 +10,7 @@ session_start();
 	<body>
 		<a href="cad_usuario.php">Cadastrar</a><br>
 		<a href="index.php">Listar</a><br>
-		<h1>Cadastrar Usuário</h1>
+		<h1>Cadastrar Usuário - Gustavo Testando</h1>
 		<?php
 		if(isset($_SESSION['msg'])){
 			echo $_SESSION['msg'];
