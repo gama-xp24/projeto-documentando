@@ -18,7 +18,7 @@ date_default_timezone_set('America/Sao_Paulo');
 
 $horario = date('m/d/Y h:i:s');
 
-$result_usuario = "SET GLOBAL time_zone = "America/Sao_Paulo" INSERT INTO tb_leads (email, ip, tipo, nome, data_hora) VALUES ('$email', '$ip', '$tipo', '$nome', NOW())";
+$result_usuario = "SET GLOBAL time_zone = 'America/Sao_Paulo' INSERT INTO tb_leads (email, ip, tipo, nome, data_hora) VALUES ('$email', '$ip', '$tipo', '$nome', NOW())";
 
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 

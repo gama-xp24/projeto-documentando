@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta name="author" content="MARIVALDO TORRES JUNIOR">
+    <meta name="author" content="Grupo Micstar - Gama XP 24">
     <meta name="description" content="Site do Documentando">
     <meta name="keywords" content="advocacia, direito, advogado, oab, advogada, direitocivil, advogados, direitodotrabalho, dicas, lei, processos, documentando, linte,sotfware juridico, automação de documentos, startup automação, automatização, documentanto ">
  </head>
@@ -78,18 +78,31 @@
                       <div class="col table" style="background-color:grey">
                             <div style="color: white"><p><h3>O blog da Documentando <b>te ensina</b>a otimizar os porcessos de organização, compartilhamento e proteção dos documentos da<b> sua empresa</b>.Não perca nenhum conteúdo e seja o 1° a aplicar as <b>melhores práticas</b>. <br>Deixe seu E-mail para receber todos os nossos conteúdos:</h3></p></div>
                         
-                            <form>
+                            <form method="POST" action="proc_cad_usuario.php">
                                     <div class="form-group">
                                       <label for="exampleInputEmail1"><b>Endereço de E-mail</b></label>
-                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                                      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
                                       <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
                                     </div>
                                     <div class="form-group">
                                       <label for="exampleInputPassword1"><b>Nome Completo</b></label>
-                                      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nome Completo">
+                                      <input type="text" name="nome" class="form-control" id="exampleInputPassword1" placeholder="Nome Completo">
                                     </div>
+                                <fieldset>
+                                    <legend>A sua empresa atende pessoa jurídica ou pessoa física?</legend>
+                                    <div>
+                                        <input type="radio" id="B2B" name="tipo" value="B2B"
+                                               checked>
+                                        <label for="B2B">PJ (B2B)</label>
+                                    </div>
+    
+                                    <div>
+                                        <input type="radio" id="B2C" name="tipo" value="B2C">
+                                        <label for="B2C">PF (B2C)</label>
+                                    </div>
+                                </fieldset>
                                     <button type="submit" class="btn btn-warning"><b>RECEBER CONTEÚDO EXCLUSIVO</b></button>
-                                  </form>
+                            </form>
                                 
                       </div>
                       <div class="w-100"></div>
