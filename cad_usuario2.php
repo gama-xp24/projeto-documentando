@@ -1,7 +1,6 @@
 <?php
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -24,9 +23,17 @@ session_start();
 			
 			<label>E-mail: </label>
 			<input type="email" name="email" placeholder="Digite o seu melhor e-mail"><br><br>
-
-			<label>Tipo: </label>
-			<input type="text" name="tipo" placeholder="Digite o seu melhor tipo"><br><br>
+			
+			<fieldset>
+                <legend>A sua empresa atende pessoa jurídica ou pessoa física?</legend>
+         		<div>
+                    <input type="radio" name="tipo" value="b2b" checked>PJ (B2B)<br>
+                </div>
+    
+                <div>
+                    <input type="radio" name="tipo" value="b2c">PF (B2C)<br>
+                </div>
+            </fieldset>
 
 			<input type="submit" value="Cadastrar">
 		</form>
