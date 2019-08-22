@@ -5,6 +5,16 @@ session_start();
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146081541-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-146081541-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
@@ -46,7 +56,7 @@ session_start();
                     <div class="menu">
                         <ul>
                             <li><a href="http://artigos.documentando.com.br/">EBOOKS</a></li>
-                            <li><a href="http://soartigos.documentando.com.br/">ARTIGOS</a></li>
+                            <li><a href="/artigos/artigos.php">ARTIGOS</a></li>
                             <li><a href="http://podcast.documentando.com.br/">PODCAST</a></li>
                             <li><a href="http://videos.documentando.com.br/">VÍDEOS</a></li>
                         </ul>
