@@ -238,9 +238,15 @@ html,body{
     box-shadow: 0 20px 80px rgba(77, 1, 1, 0.507);
 }
 
-.table {
+.form {
     border-radius: 30px;
+    background-color: #2A4C72;
+    padding: 2rem;
 }
+.form h3{
+    text-align: center;
+}
+
 
 .footer {
     background-color:  rgba(214, 212, 212, 0.863);
@@ -291,4 +297,9 @@ html,body{
 .author{
     
     flex: 1;
+}
+
+.img-new1 {
+    width: 100%;
+    height: auto;
 }
