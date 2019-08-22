@@ -71,7 +71,7 @@ session_start();
                                     <h3 class="m-2 text-center  font-x2"><strong>5 benefícios da automação jurídica para seu escritório!</strong></h3>
                                     <div class="nomezinhos">
                                             <div class="tipo-doc"><h5> EBOOK|</h5></div>
-                                            <div class="author"><h6>Por Pamela Coelho</h6></div>
+                                            <div class="author"><h6>Por Júlia Innocencio</h6></div>
                                           </div>
                                     <figure><a href="https://artigo1.documentando.com.br/8878/5-bene-auto-ju.pdf"><img src="./img/new1.jpg"height="320px"  width="500px"></a></figure>
                                     to make text smaller. The text looks so small because three special unicode alphabets are used. This is why you can copy and paste it! You wouldn't be able to do that if it were a tiny font.</p>
@@ -82,7 +82,7 @@ session_start();
                       </div>
                       <!--Formulário-->
                       <div class="col table" style="background-color:rgb(43, 69, 124)">
-                            <div style="color: white"><p><h3><br>    O blog da Documentando <b>te ensina</b> a otimizar os porcessos de organização, compartilhamento e proteção dos documentos da<b> sua empresa</b>.Não perca nenhum conteúdo e seja o 1° a aplicar as <b>melhores práticas</b>. <br>Deixe seu E-mail para receber todos os nossos conteúdos:</h3></p></div>
+                            <div style="color: white"><p><h3><br>    O blog da Documentando <b>te ensina</b> a otimizar os processos de organização, compartilhamento e proteção dos documentos da<b> sua empresa</b>.Não perca nenhum conteúdo e seja o 1° a aplicar as <b>melhores práticas</b>. <br>Deixe seu E-mail para receber todos os nossos conteúdos:</h3></p></div>
                         <br>
                         <br>
                             <form method="POST" action="proc_cad_usuario.php">
