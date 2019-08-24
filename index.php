@@ -19,7 +19,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta name="author" content="MARIVALDO TORRES JUNIOR">
+    <meta name="author" content="MICSTAR - MARIVALDO TORRES JUNIOR">
     <meta name="description" content="Site do Documentando. Blog voltado para quem busca o aumento da produtividade e aumento da qualidade através da automatização de contratos ao longo de todo seu ciclo de vida.">
     <meta name="keywords" content="advocacia, direito, advogado, oab, advogada, direitocivil, advogados, direitodotrabalho, dicas, lei, processos, documentando, linte,sotfware juridico, automação de documentos, startup automação, automatização, documentanto ">
 </head>
